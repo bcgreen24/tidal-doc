@@ -28,13 +28,12 @@ windows to give a few security pop-ups for you to accept. Windows 7 users: pleas
 > The [Chocolatey](https://chocolatey.org/) package
 >  manager is required. If you haven't installed it previously, you can
 >   get it by running this command:
->   ```shell
->    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))```
+>   ```Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))```
 
 **III - Installing Tidal Cycles**
 
 Run the following command to install Tidal Cycles using Chocolatey:
->    ```shell choco install tidalcycles ```
+>    ```choco install tidalcycles ```
 
 *Note:* We are still working on the automatic installer. A lot of confusing information will scroll past. Please ignore messages about restarting Powershell. Just let the process run to the end.
 
